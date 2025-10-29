@@ -1048,18 +1048,7 @@ public class PVPHelper
     //不作变化
     public static void 进入ACR()
     {
-        //	if(!PvPSettings.Instance.鬼叫) return;
-        if (!(通用码权限 || 高级码))
-        {
-            Core.Resolve<MemApiChatMessage>()
-                .Toast2(
-                    $"没有权限！", 1,
-                    1500);
-        }
-        else
-        {
-            //	Voice.PlayVoiceRandom();
-        }
+
     }
 
     private static DateTime 冲刺time = DateTime.MinValue;
